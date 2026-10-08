@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<!-- ساخته‌شده از src/pages/index.html با build.mjs؛ همان‌جا ویرایش شود -->
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>پرسیکور آکادمی | آموزشگاه آنلاین برنامه‌نویسی</title>
+  <meta name="description" content="پرسیکور آکادمی، آموزشگاه آنلاین برنامه‌نویسی با کلاس‌های زنده، مدرسان باتجربه‌ی صنعت و دوره‌های پروژه‌محور.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://percicoreacademy.ir/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="پرسیکور آکادمی">
+  <meta property="og:locale" content="fa_IR">
+  <meta property="og:title" content="پرسیکور آکادمی | آموزشگاه آنلاین برنامه‌نویسی">
+  <meta property="og:description" content="پرسیکور آکادمی، آموزشگاه آنلاین برنامه‌نویسی با کلاس‌های زنده، مدرسان باتجربه‌ی صنعت و دوره‌های پروژه‌محور.">
+  <meta property="og:url" content="https://percicoreacademy.ir/">
+  <meta property="og:image" content="https://percicoreacademy.ir/assets/img/og/default.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="پرسیکور آکادمی | آموزشگاه آنلاین برنامه‌نویسی">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="پرسیکور آکادمی | آموزشگاه آنلاین برنامه‌نویسی">
+  <meta name="twitter:description" content="پرسیکور آکادمی، آموزشگاه آنلاین برنامه‌نویسی با کلاس‌های زنده، مدرسان باتجربه‌ی صنعت و دوره‌های پروژه‌محور.">
+  <meta name="twitter:image" content="https://percicoreacademy.ir/assets/img/og/default.jpg">
+  <link rel="alternate" type="application/rss+xml" title="بلاگ پرسیکور آکادمی" href="https://percicoreacademy.ir/rss.php">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://percicoreacademy.ir/#org",
+      "name": "پرسیکور آکادمی",
+      "alternateName": "Persicore Academy",
+      "url": "https://percicoreacademy.ir/",
+      "logo": "https://percicoreacademy.ir/assets/img/logo.png",
+      "description": "آموزشگاه آنلاین برنامه‌نویسی با کلاس‌های زنده، مدرسان باتجربه‌ی صنعت و دوره‌های پروژه‌محور",
+      "sameAs": [
+        "https://t.me/Arianmirnazari",
+        "https://t.me/percicoreacademy"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "آرین میرنظری",
+        "url": "https://percicoreacademy.ir/mentor.html"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+98-905-717-7001",
+        "contactType": "customer support",
+        "availableLanguage": "fa"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://percicoreacademy.ir/#website",
+      "url": "https://percicoreacademy.ir/",
+      "name": "پرسیکور آکادمی",
+      "alternateName": "Persicore Academy",
+      "inLanguage": "fa",
+      "publisher": {
+        "@id": "https://percicoreacademy.ir/#org"
+      }
+    }
+  ]
+}
+  </script>
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="assets/img/logo.png">
+  <link rel="apple-touch-icon" href="assets/img/logo.png">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preload" as="image" href="assets/img/mascot-front.png">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container">
+      <div class="site-header__bar">
+        <a href="index.html" class="brand" aria-label="پرسیکور آکادمی، صفحه‌ی اصلی">
+          <img src="assets/img/logo.png" alt="" width="36" height="36">
+          <span>
+            <span class="brand__name">پرسیکور آکادمی</span>
+            <span class="brand__sub latin">Persicore Academy</span>
+          </span>
+        </a>
+
+        <nav class="main-nav" aria-label="منوی اصلی">
+          <div class="nav-mega" id="navMega">
+            <button class="nav-mega__btn" type="button" aria-expanded="false" aria-controls="megaCourses" data-nav="courses">
+              دوره‌ها
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+            </button>
+
+            <div class="mega" id="megaCourses">
+              <div class="mega__list" role="list">
+                <a href="vibe-coding.html" class="mega__item" role="listitem">
+                  <span class="mega__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="m3 12.5 9 5 9-5M3 17l9 5 9-5"/></svg></span>
+                  <span class="mega__text"><strong>فول‌استک با وایب کدینگ</strong><small>۱۰ جلسه · کلاس زنده</small></span>
+                  <span class="mega__status mega__status--open">پذیرش فعال</span>
+                </a>
+                <a href="python.html" class="mega__item" role="listitem">
+                  <span class="mega__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M13.5 5l-3 14"/></svg></span>
+                  <span class="mega__text"><strong>پایتون، از صفر</strong><small>۳۰ جلسه · ۳۰ پروژه</small></span>
+                  <span class="mega__status mega__status--open">پذیرش فعال</span>
+                </a>
+                <a href="cyber-python.html" class="mega__item" role="listitem">
+                  <span class="mega__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4.5 6v5.5c0 4.5 3 8.3 7.5 9.5 4.5-1.2 7.5-5 7.5-9.5V6L12 3Z"/><path d="m9 12 2.2 2.2L15.2 10"/></svg></span>
+                  <span class="mega__text"><strong>پایتون و امنیت سایبری</strong><small><span class="latin">HACK.PY</span> · ۱۰ ابزار امنیتی</small></span>
+                  <span class="mega__status mega__status--open">پذیرش فعال</span>
+                </a>
+                <a href="ai-tools.html" class="mega__item" role="listitem">
+                  <span class="mega__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M6 6l2 2M16 16l2 2M18 6l-2 2M8 16l-2 2"/><circle cx="12" cy="12" r="3.5"/></svg></span>
+                  <span class="mega__text"><strong>هوش مصنوعی کاربردی</strong><small>۵ ابزار · ویدیوی ضبط‌شده</small></span>
+                  <span class="mega__status mega__status--open">پذیرش فعال</span>
+                </a>
+                <a href="cpp.html" class="mega__item" role="listitem">
+                  <span class="mega__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2.5"/><path d="M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3"/></svg></span>
+                  <span class="mega__text"><strong><span class="latin">C++</span>، عبور از انتزاع</strong><small>۲۰ جلسه · ۵ فاز</small></span>
+                  <span class="mega__status mega__status--soon">به‌زودی</span>
+                </a>
+                <a href="index.html#courses" class="mega__all">همه‌ی دوره‌ها و شهریه‌ها <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></a>
+              </div>
+
+              <div class="mega__slider" id="megaSlider" aria-roledescription="carousel" aria-label="پیشنهادهای آکادمی">
+                <a href="python.html" class="banner banner--brand is-active" aria-roledescription="slide">
+                  <span class="banner__tag">شروع از صفر</span>
+                  <span class="banner__mark latin">Python</span>
+                  <span class="banner__text">از اولین خط کد تا ربات هوش مصنوعی، با ۳۰ پروژه‌ی عملی.</span>
+                  <span class="banner__cta">مشاهده‌ی دوره <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></span>
+                  <img class="banner__mascot" src="assets/img/mascot-front.png" alt="" width="502" height="898" loading="lazy">
+                </a>
+                <a href="free.html" class="banner banner--lilac" aria-roledescription="slide">
+                  <span class="banner__tag">رایگان</span>
+                  <span class="banner__title">آموزش‌های رایگان</span>
+                  <span class="banner__text">پیش از انتخاب دوره، شیوه‌ی تدریس پرسیکور را ببینید.</span>
+                  <span class="banner__cta">شروع تماشا <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></span>
+                  <span class="banner__play" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5-11-6.5Z"/></svg></span>
+                </a>
+                <a href="cpp.html" class="banner banner--deep" aria-roledescription="slide">
+                  <span class="banner__tag">به‌زودی</span>
+                  <span class="banner__mark latin">C++</span>
+                  <span class="banner__text">۲۰ جلسه و ۲۰ چالش؛ از مدیریت حافظه تا موتور بازی ترمینالی.</span>
+                  <span class="banner__cta">مشاهده‌ی سرفصل <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></span>
+                  <span class="banner__code latin" aria-hidden="true">{ }</span>
+                </a>
+                <div class="mega__dots" role="tablist" aria-label="انتخاب بنر">
+                  <button type="button" class="is-active" aria-label="بنر ۱"></button>
+                  <button type="button" aria-label="بنر ۲"></button>
+                  <button type="button" aria-label="بنر ۳"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="instructors.html" data-nav="instructors">مدرسان</a>
+          <a href="free.html" data-nav="free">آموزش رایگان</a>
+          <a href="blog.html" data-nav="blog">بلاگ</a>
+          <a href="about.html" data-nav="about">درباره‌ی ما</a>
+        </nav>
+
+        <div class="site-header__actions">
+          <a href="login.html" class="btn btn--primary btn--sm" style="padding-inline-end:20px">ورود / ثبت‌نام</a>
+        </div>
+
+        <button class="burger" id="burgerBtn" type="button" aria-label="باز کردن منو" aria-expanded="false" aria-controls="mobileNav">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>
+        </button>
+      </div>
+
+      <div class="mobile-nav" id="mobileNav">
+        <a href="index.html#courses">دوره‌ها</a>
+        <a href="instructors.html">مدرسان</a>
+        <a href="free.html">آموزش رایگان</a>
+        <a href="blog.html">بلاگ</a>
+        <a href="about.html">درباره‌ی ما</a>
+        <a href="login.html" class="btn btn--primary" style="padding-inline-end:28px">ورود / ثبت‌نام</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ Hero ============ -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__grid">
+          <div>
+            <span class="pill hero__fade" style="--i:-4">آکادمی برنامه‌نویسی پرسیکور</span>
+            <h1>
+              <span class="w" style="--i:0">برنامه‌نویسی</span>
+              <span class="w" style="--i:1">را</span>
+              <span class="w" style="--i:2">با</span>
+              <span class="w" style="--i:3"><span class="hl">ساختن</span></span>
+              <span class="w" style="--i:4">یاد</span>
+              <span class="w" style="--i:5">بگیرید</span>
+              <span class="soft"><span class="w" style="--i:7">نه با حفظ‌کردن.</span></span>
+            </h1>
+            <p class="hero__lead hero__fade" style="--i:1">
+              دوره‌های پرسیکور به‌صورت کلاس زنده برگزار می‌شوند، مدرسان آن از دل صنعت می‌آیند و هر دوره با یک پروژه‌ی واقعی و قابل‌ارائه به پایان می‌رسد.
+            </p>
+            <div class="hero__actions hero__fade" style="--i:2">
+              <a href="#courses" class="btn btn--primary" data-magnetic>
+                مشاهده‌ی دوره‌ها
+                <span class="btn__dot" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></span>
+              </a>
+              <a href="#method" class="link">شیوه‌ی آموزش در پرسیکور</a>
+            </div>
+          </div>
+
+          <div class="stage" id="stage" aria-hidden="true">
+            <span class="stage__ring" data-depth="6"></span>
+            <span class="stage__arch"></span>
+            <span class="stage__mascot mascot"><img src="assets/img/mascot-front.png" alt="" width="502" height="898"><i class="mascot__lid mascot__lid--l"></i><i class="mascot__lid mascot__lid--r"></i></span>
+            <span class="bubble" data-depth="20">این‌جا با ساختن یاد می‌گیریم</span>
+            <span class="chip chip--5" style="--i:0" data-depth="26"><i><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4.5 6v5.5c0 4.5 3 8.3 7.5 9.5 4.5-1.2 7.5-5 7.5-9.5V6L12 3Z"/></svg></i>Security</span>
+            <span class="chip chip--1 chip--brand" style="--i:1" data-depth="34"><i><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 8-4 4 4 4M16 8l4 4-4 4"/></svg></i>Python</span>
+            <span class="chip chip--2" style="--i:2" data-depth="40"><i><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="m3 13 9 5 9-5"/></svg></i>Next.js</span>
+            <span class="chip chip--3" style="--i:3" data-depth="30"><i><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v3M12 17v3M4 12h3M17 12h3"/><circle cx="12" cy="12" r="3.2"/></svg></i>AI Tools</span>
+            <span class="chip chip--4" style="--i:4" data-depth="22"><i><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="14" rx="3"/><path d="M9 10h6M9 14h4"/></svg></i>C++</span>
+          </div>
+        </div>
+
+        <div class="facts">
+          <div class="fact" data-reveal style="--d:0">
+            <span class="fact__num" aria-hidden="true">۴</span>
+            <strong>دوره‌ی فعال</strong>
+            <span class="fact__desc">و یک دوره‌ی تازه در راه</span>
+          </div>
+          <div class="fact" data-reveal style="--d:1">
+            <span class="fact__num" aria-hidden="true">۳</span>
+            <strong>مدرس از دل صنعت</strong>
+            <span class="fact__desc">با سابقه‌ی کار روی محصول واقعی</span>
+          </div>
+          <div class="fact" data-reveal style="--d:2">
+            <span class="fact__icon" aria-hidden="true"><span class="live"></span></span>
+            <strong>کلاس زنده و آنلاین</strong>
+            <span class="fact__desc">همراه با ضبط همه‌ی جلسات</span>
+          </div>
+          <div class="fact fact--brand" data-reveal style="--d:3">
+            <span class="fact__icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="5.5"/><path d="m8.5 13.5-1.5 7 5-2.5 5 2.5-1.5-7"/></svg></span>
+            <strong>گواهی پایان دوره</strong>
+            <span class="fact__desc">با کد استعلام آنلاین</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Courses ============ -->
+    <section class="section" id="courses">
+      <div class="container">
+        <header class="sec-head" data-reveal>
+          <div>
+            <span class="pill">دوره‌های آموزشی</span>
+            <h2 class="sec-head__title">برنامه‌ی آموزشی پرسیکور</h2>
+            <p class="sec-head__desc">هر دوره یک مسیر کامل است که از مبانی شروع می‌شود و به یک پروژه‌ی واقعی می‌رسد.</p>
+          </div>
+          <a href="pricing.html" class="link">جزئیات شهریه و شرایط پرداخت</a>
+        </header>
+
+        <div class="courses">
+
+          <a href="vibe-coding.html" class="course course--wide" data-reveal style="--d:0">
+            <div class="course__top">
+              <span class="status status--open">پذیرش فعال</span>
+              <span class="course__idx">۰۱</span>
+            </div>
+            <span class="course__icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="m3 12.5 9 5 9-5M3 17l9 5 9-5"/></svg></span>
+            <div class="course__mark latin">Vibe Coding</div>
+            <ul class="course__tags latin"><li>Next.js</li><li>Node.js</li><li>Docker</li></ul>
+            <h3 class="course__title">برنامه‌نویسی فول‌استک با متد وایب کدینگ</h3>
+            <p class="course__desc">از ایده تا استقرار سه پروژه‌ی واقعی، با استفاده از هوش مصنوعی در کنار کدنویسی.</p>
+            <dl class="course__foot">
+              <div><dt>مدت</dt><dd>۱۰ جلسه · ۲۰ ساعت</dd></div>
+              <div><dt>قالب</dt><dd>کلاس زنده</dd></div>
+              <div><dt>شهریه</dt><dd>۲٬۶۹۰٬۰۰۰ تومان</dd></div>
+              <span class="go" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></span>
+            </dl>
+          </a>
+
+          <a href="python.html" class="course course--wide course--brand" data-reveal style="--d:1">
+            <div class="course__top">
+              <span class="status status--open">پذیرش فعال</span>
+              <span class="course__idx">۰۲</span>
+            </div>
+            <span class="course__icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M13.5 5l-3 14"/></svg></span>
+            <div class="course__mark latin">Python</div>
+            <ul class="course__tags latin"><li>Automation</li><li>Telegram Bot</li><li>Deploy</li></ul>
+            <h3 class="course__title">پایتون، از صفر تا ربات هوش مصنوعی</h3>
+            <p class="course__desc">هر جلسه یک پروژه‌ی عملی؛ از اولین خط کد تا ربات متصل به هوش مصنوعی روی سرور واقعی.</p>
+            <dl class="course__foot">
+              <div><dt>مدت</dt><dd>۳۰ جلسه · ۱۴ ساعت</dd></div>
+              <div><dt>قالب</dt><dd>۳۰ پروژه</dd></div>
+              <div><dt>شهریه</dt><dd>۴۲۰٬۰۰۰ تومان</dd></div>
+              <span class="go" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></span>
+            </dl>
+          </a>
+
+          <a href="cyber-python.html" class="course" data-reveal style="--d:0">
+            <div class="course__top">
+              <span class="status status--open">پذیرش فعال</span>
+              <span class="course__idx">۰۳</span>
+            </div>
+            <span class="course__icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4.5 6v5.5c0 4.5 3 8.3 7.5 9.5 4.5-1.2 7.5-5 7.5-9.5V6L12 3Z"/><path d="m9 12 2.2 2.2L15.2 10"/></svg></span>
+            <div class="course__mark latin">HACK.PY</div>
+            <ul class="course__tags latin"><li>Python</li><li>Cybersecurity</li></ul>
+            <h3 class="course__title">پایتون و امنیت سایبری</h3>
+            <p class="course__desc">دوره‌ی ترکیبی پایتون پایه و امنیت سایبری، تا ساخت ابزار امنیتی.</p>
+            <dl class="course__foot">
+              <div><dt>ساختار</dt><dd>۲ دوره · ۱۰ ابزار</dd></div>
+              <div><dt>شهریه</dt><dd>۳٬۷۰۰٬۰۰۰ تومان</dd></div>
+              <span class="go" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></span>
+            </dl>
+          </a>
+
+          <a href="ai-tools.html" class="course" data-reveal style="--d:1">
+            <div class="course__top">
+              <span class="status status--open">پذیرش فعال</span>
+              <span class="course__idx">۰۴</span>
+            </div>
+            <span class="course__icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M6 6l2 2M16 16l2 2M18 6l-2 2M8 16l-2 2"/><circle cx="12" cy="12" r="3.5"/></svg></span>
+            <div class="course__mark latin">AI Tools</div>
+            <ul class="course__tags latin"><li>ChatGPT</li><li>Claude</li><li>Gemini</li></ul>
+            <h3 class="course__title">آموزش کاربردی هوش مصنوعی</h3>
+            <p class="course__desc">کار حرفه‌ای با پنج ابزار اصلی هوش مصنوعی؛ از پرامپت‌نویسی تا اتوماسیون و پژوهش.</p>
+            <dl class="course__foot">
+              <div><dt>قالب</dt><dd>ویدیوی ضبط‌شده</dd></div>
+              <div><dt>شهریه</dt><dd>۲٬۵۰۰٬۰۰۰ تومان</dd></div>
+              <span class="go" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></span>
+            </dl>
+          </a>
+
+          <a href="cpp.html" class="course course--soon" data-reveal style="--d:2">
+            <div class="course__top">
+              <span class="status status--soon">به‌زودی</span>
+              <span class="course__idx">۰۵</span>
+            </div>
+            <span class="course__icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2.5"/><path d="M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3"/></svg></span>
+            <div class="course__mark latin">C++</div>
+            <ul class="course__tags latin"><li>C++17</li><li>C++20</li></ul>
+            <h3 class="course__title">عبور از لایه‌های انتزاع</h3>
+            <p class="course__desc">از مدیریت مستقیم حافظه تا ساخت موتور بازی ترمینالی.</p>
+            <dl class="course__foot">
+              <div><dt>مدت</dt><dd>۲۰ جلسه · ۵ فاز</dd></div>
+              <div><dt>شهریه</dt><dd>اعلام می‌شود</dd></div>
+              <span class="go" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></span>
+            </dl>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Method ============ -->
+    <section class="section section--tint" id="method">
+      <div class="container">
+        <header class="sec-head sec-head--center" data-reveal>
+          <span class="pill">شیوه‌ی آموزش</span>
+          <h2 class="sec-head__title">چهار اصل که همه‌ی دوره‌ها بر پایه‌ی آن طراحی می‌شوند</h2>
+          <p class="sec-head__desc">پرسیکور برای پر کردن فاصله‌ی میان «دانستن مفاهیم» و «ساختن محصول» شکل گرفته است.</p>
+        </header>
+
+        <div class="method">
+          <article class="principle" data-reveal style="--d:0">
+            <span class="principle__num" aria-hidden="true">۱</span>
+            <span class="principle__icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="m3 12.5 9 5 9-5M3 17l9 5 9-5"/></svg></span>
+            <h3>یادگیری با ساختن</h3>
+            <p>هر دوره حول یک پروژه‌ی واقعی طراحی شده است. مفاهیم همان‌جایی آموزش داده می‌شوند که در پروژه به کار می‌آیند.</p>
+          </article>
+
+          <figure class="method__mascot" data-reveal style="--d:1; margin:0">
+            <video data-inview muted loop playsinline preload="metadata" poster="assets/video/portrait-poster.jpg" width="800" height="960" aria-label="کاراکتر پرسیکور">
+              <source src="assets/video/portrait.mp4" type="video/mp4">
+            </video>
+            <figcaption class="method__quote"><small>همراه مسیر یادگیری</small>یاد نمی‌گیریم که حفظ کنیم؛ یاد می‌گیریم که بسازیم.</figcaption>
+          </figure>
+
+          <article class="principle" data-reveal style="--d:2">
+            <span class="principle__num" aria-hidden="true">۲</span>
+            <span class="principle__icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="13" height="14" rx="3"/><path d="m16 10 5-3v10l-5-3"/></svg></span>
+            <h3>کلاس زنده، نه فقط ویدیو</h3>
+            <p>جلسات زنده برگزار می‌شوند تا پرسش و رفع اشکال در همان لحظه انجام شود. ضبط هر جلسه در پنل دانشجو می‌ماند.</p>
+          </article>
+
+          <article class="principle" data-reveal style="--d:0">
+            <span class="principle__num" aria-hidden="true">۳</span>
+            <span class="principle__icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="3"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/></svg></span>
+            <h3>مدرسانی از دل صنعت</h3>
+            <p>مدرسان پرسیکور در تیم‌های مهندسی و پروژه‌های واقعی کار کرده‌اند و همان تجربه را به کلاس می‌آورند.</p>
+          </article>
+
+          <article class="principle" data-reveal style="--d:2">
+            <span class="principle__num" aria-hidden="true">۴</span>
+            <span class="principle__icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M6 6l2 2M16 16l2 2M18 6l-2 2M8 16l-2 2"/><circle cx="12" cy="12" r="3.5"/></svg></span>
+            <h3>هوش مصنوعی به‌عنوان ابزار کار</h3>
+            <p>استفاده‌ی درست از ابزارهای هوش مصنوعی بخشی از مهارت برنامه‌نویس امروز است و در کنار مبانی آموزش داده می‌شود.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Journey ============ -->
+    <section class="section" id="journey">
+      <div class="container">
+        <header class="sec-head" data-reveal>
+          <div>
+            <span class="pill">مسیر دانشجو</span>
+            <h2 class="sec-head__title">از پذیرش تا گواهی پایان دوره</h2>
+          </div>
+        </header>
+
+        <div class="journey" id="journeyEl">
+          <div class="journey__film" data-reveal>
+            <video data-inview muted loop playsinline preload="metadata" poster="assets/video/journey-poster.jpg" width="1600" height="600" aria-label="انیمیشن مسیر دانشجو از پذیرش تا گواهی">
+              <source src="assets/video/journey.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <ol class="journey__steps">
+            <li class="journey__step" data-reveal>
+              <span class="journey__label">گام اول</span>
+              <h3>پذیرش</h3>
+              <p>دوره را انتخاب و آنلاین ثبت‌نام می‌کنید. دسترسی به پنل دانشجو بلافاصله فعال می‌شود.</p>
+            </li>
+            <li class="journey__step" data-reveal>
+              <span class="journey__label">گام دوم</span>
+              <h3>کلاس</h3>
+              <p>جلسات زنده طبق برنامه‌ی دوره برگزار و برای مرور بعدی ضبط می‌شوند.</p>
+            </li>
+            <li class="journey__step" data-reveal>
+              <span class="journey__label">گام سوم</span>
+              <h3>تمرین و ارزیابی</h3>
+              <p>برای جلسات، تمرین و آزمون تعریف می‌شود و مدرس روی کار شما بازخورد می‌دهد.</p>
+            </li>
+            <li class="journey__step" data-reveal>
+              <span class="journey__label">گام چهارم</span>
+              <h3>پروژه و گواهی</h3>
+              <p>با تکمیل دوره، گواهی پایان دوره با کد استعلام آنلاین صادر می‌شود.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Certificate ============ -->
+    <section class="section section--tint" id="certificate">
+      <div class="container certificate">
+        <div class="certificate__copy" data-reveal>
+          <span class="pill">گواهی پایان دوره</span>
+          <h2 class="sec-head__title">نمونه‌ی مدرکی که در پایان دوره می‌گیرید</h2>
+          <p class="sec-head__desc">پس از تکمیل جلسات دوره و قبولی در آزمون نهایی، گواهی به نام شما صادر می‌شود و در پنل دانشجو می‌ماند.</p>
+
+          <ul class="certificate__points">
+            <li>
+              <span class="certificate__tick" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+              <div><strong>کد اختصاصی و استعلام آنلاین</strong><span>هر گواهی یک کد یکتا و QR دارد و اصالت آن از صفحه‌ی استعلام قابل بررسی است.</span></div>
+            </li>
+            <li>
+              <span class="certificate__tick" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+              <div><strong>نسخه‌ی فارسی و انگلیسی</strong><span>گواهی به هر دو زبان صادر می‌شود و نام لاتین شما روی نسخه‌ی انگلیسی درج می‌شود.</span></div>
+            </li>
+            <li>
+              <span class="certificate__tick" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+              <div><strong>خروجی <span class="latin">PDF</span> و افزودن به <span class="latin">LinkedIn</span></strong><span>نسخه‌ی قابل چاپ را دریافت می‌کنید و با یک کلیک به پروفایل لینکدین اضافه می‌شود.</span></div>
+            </li>
+          </ul>
+
+          <a href="verify-certificate.html" class="link">استعلام اصالت گواهی</a>
+        </div>
+
+        <div class="certificate__show" data-reveal style="--d:1">
+          <div class="certificate__switch" role="group" aria-label="زبان گواهی">
+            <button type="button" class="is-active" data-cert-lang="fa" aria-pressed="true">فارسی</button>
+            <button type="button" data-cert-lang="en" aria-pressed="false">English</button>
+          </div>
+
+          <div class="cert-wrap" id="certWrap" data-lang="fa">
+            <article class="cert" id="certCard" aria-label="نمونه‌ی گواهی پایان دوره">
+              <span class="cert__sample">نمونه</span>
+
+              <div class="cert__face cert__face--fa">
+                <header class="cert__head">
+                  <span class="cert__brand"><img src="assets/img/logo.png" alt="" width="36" height="36">پرسیکور آکادمی</span>
+                  <svg class="cert__seal" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width=".8" stroke-dasharray="2 3"/><path d="M50 26l6.5 13.5 14.8 2-10.8 10.3 2.7 14.7L50 59.4 36.8 66.5l2.7-14.7L28.7 41.5l14.8-2L50 26Z" fill="currentColor"/></svg>
+                </header>
+                <p class="cert__kicker">گواهی‌نامه‌ی پایان دوره</p>
+                <p class="cert__kicker-sub latin">PERSICORE ACADEMY</p>
+                <p class="cert__lead">بدین‌وسیله گواهی می‌شود که</p>
+                <p class="cert__name">نام و نام خانوادگی دانشجو</p>
+                <p class="cert__body">کلیه‌ی الزامات آموزشی را با موفقیت گذرانده و دوره‌ی زیر را نزد پرسیکور آکادمی به پایان رسانده است:</p>
+                <p class="cert__course">پایتون، از صفر تا ربات هوش مصنوعی</p>
+                <footer class="cert__foot">
+                  <div class="cert__sign">
+                    <svg class="cert__scribble" viewBox="0 0 160 44" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 34c10-18 18-28 24-28 7 0-6 30 2 30 9 0 14-22 22-22 6 0-4 20 4 20 7 0 10-14 16-14 5 0 0 12 6 12 8 0 12-16 20-16 6 0-2 16 6 16 10 0 20-12 46-16"/><path d="M20 40c40-6 80-8 124-6" stroke-width="1.4"/></svg>
+                    <strong class="latin">Arian Mirnazari</strong>
+                    <span>بنیان‌گذار پرسیکور آکادمی</span>
+                  </div>
+                  <div class="cert__sign">
+                    <strong class="cert__date">۱۴۰۵/۰۷/۰۹</strong>
+                    <span>تاریخ تکمیل دوره</span>
+                  </div>
+                  <div class="cert__verify">
+                    <svg class="cert__qr" viewBox="-1 -1 23 23" fill="currentColor" aria-hidden="true"><rect x='0' y='0' width='7' height='7' rx='1.6'/><rect x='1' y='1' width='5' height='5' rx='1' fill='#fff'/><rect x='2' y='2' width='3' height='3' rx='.7'/><rect x='14' y='0' width='7' height='7' rx='1.6'/><rect x='15' y='1' width='5' height='5' rx='1' fill='#fff'/><rect x='16' y='2' width='3' height='3' rx='.7'/><rect x='0' y='14' width='7' height='7' rx='1.6'/><rect x='1' y='15' width='5' height='5' rx='1' fill='#fff'/><rect x='2' y='16' width='3' height='3' rx='.7'/><rect x='9' y='0' width='1' height='1'/><rect x='11' y='0' width='1' height='1'/><rect x='12' y='0' width='1' height='1'/><rect x='8' y='1' width='1' height='1'/><rect x='9' y='1' width='1' height='1'/><rect x='11' y='1' width='1' height='1'/><rect x='9' y='2' width='1' height='1'/><rect x='10' y='2' width='1' height='1'/><rect x='11' y='2' width='1' height='1'/><rect x='12' y='3' width='1' height='1'/><rect x='8' y='5' width='1' height='1'/><rect x='10' y='5' width='1' height='1'/><rect x='9' y='6' width='1' height='1'/><rect x='8' y='7' width='1' height='1'/><rect x='10' y='7' width='1' height='1'/><rect x='11' y='7' width='1' height='1'/><rect x='1' y='8' width='1' height='1'/><rect x='7' y='8' width='1' height='1'/><rect x='8' y='8' width='1' height='1'/><rect x='9' y='8' width='1' height='1'/><rect x='11' y='8' width='1' height='1'/><rect x='14' y='8' width='1' height='1'/><rect x='15' y='8' width='1' height='1'/><rect x='19' y='8' width='1' height='1'/><rect x='0' y='9' width='1' height='1'/><rect x='3' y='9' width='1' height='1'/><rect x='4' y='9' width='1' height='1'/><rect x='6' y='9' width='1' height='1'/><rect x='10' y='9' width='1' height='1'/><rect x='13' y='9' width='1' height='1'/><rect x='19' y='9' width='1' height='1'/><rect x='20' y='9' width='1' height='1'/><rect x='2' y='10' width='1' height='1'/><rect x='4' y='10' width='1' height='1'/><rect x='6' y='10' width='1' height='1'/><rect x='8' y='10' width='1' height='1'/><rect x='11' y='10' width='1' height='1'/><rect x='13' y='10' width='1' height='1'/><rect x='15' y='10' width='1' height='1'/><rect x='16' y='10' width='1' height='1'/><rect x='17' y='10' width='1' height='1'/><rect x='19' y='10' width='1' height='1'/><rect x='0' y='11' width='1' height='1'/><rect x='1' y='11' width='1' height='1'/><rect x='7' y='11' width='1' height='1'/><rect x='9' y='11' width='1' height='1'/><rect x='10' y='11' width='1' height='1'/><rect x='11' y='11' width='1' height='1'/><rect x='12' y='11' width='1' height='1'/><rect x='13' y='11' width='1' height='1'/><rect x='14' y='11' width='1' height='1'/><rect x='17' y='11' width='1' height='1'/><rect x='18' y='11' width='1' height='1'/><rect x='19' y='11' width='1' height='1'/><rect x='2' y='12' width='1' height='1'/><rect x='6' y='12' width='1' height='1'/><rect x='7' y='12' width='1' height='1'/><rect x='8' y='12' width='1' height='1'/><rect x='11' y='12' width='1' height='1'/><rect x='14' y='12' width='1' height='1'/><rect x='15' y='12' width='1' height='1'/><rect x='16' y='12' width='1' height='1'/><rect x='19' y='12' width='1' height='1'/><rect x='10' y='13' width='1' height='1'/><rect x='11' y='13' width='1' height='1'/><rect x='12' y='13' width='1' height='1'/><rect x='15' y='13' width='1' height='1'/><rect x='16' y='13' width='1' height='1'/><rect x='17' y='13' width='1' height='1'/><rect x='19' y='13' width='1' height='1'/><rect x='20' y='13' width='1' height='1'/><rect x='9' y='14' width='1' height='1'/><rect x='10' y='14' width='1' height='1'/><rect x='11' y='14' width='1' height='1'/><rect x='12' y='14' width='1' height='1'/><rect x='14' y='14' width='1' height='1'/><rect x='16' y='14' width='1' height='1'/><rect x='17' y='14' width='1' height='1'/><rect x='18' y='14' width='1' height='1'/><rect x='19' y='14' width='1' height='1'/><rect x='9' y='15' width='1' height='1'/><rect x='11' y='15' width='1' height='1'/><rect x='16' y='15' width='1' height='1'/><rect x='10' y='16' width='1' height='1'/><rect x='11' y='16' width='1' height='1'/><rect x='12' y='16' width='1' height='1'/><rect x='14' y='16' width='1' height='1'/><rect x='15' y='16' width='1' height='1'/><rect x='17' y='16' width='1' height='1'/><rect x='19' y='16' width='1' height='1'/><rect x='11' y='17' width='1' height='1'/><rect x='14' y='17' width='1' height='1'/><rect x='15' y='17' width='1' height='1'/><rect x='16' y='17' width='1' height='1'/><rect x='17' y='17' width='1' height='1'/><rect x='18' y='17' width='1' height='1'/><rect x='19' y='17' width='1' height='1'/><rect x='20' y='17' width='1' height='1'/><rect x='8' y='18' width='1' height='1'/><rect x='10' y='18' width='1' height='1'/><rect x='11' y='18' width='1' height='1'/><rect x='13' y='18' width='1' height='1'/><rect x='16' y='18' width='1' height='1'/><rect x='17' y='18' width='1' height='1'/><rect x='18' y='18' width='1' height='1'/><rect x='11' y='19' width='1' height='1'/><rect x='12' y='19' width='1' height='1'/><rect x='16' y='19' width='1' height='1'/><rect x='17' y='19' width='1' height='1'/><rect x='18' y='19' width='1' height='1'/><rect x='19' y='19' width='1' height='1'/><rect x='20' y='19' width='1' height='1'/><rect x='10' y='20' width='1' height='1'/><rect x='11' y='20' width='1' height='1'/><rect x='13' y='20' width='1' height='1'/><rect x='15' y='20' width='1' height='1'/><rect x='16' y='20' width='1' height='1'/><rect x='17' y='20' width='1' height='1'/><rect x='18' y='20' width='1' height='1'/><rect x='19' y='20' width='1' height='1'/><rect x='20' y='20' width='1' height='1'/></svg>
+                    <div><span>کد گواهی</span><strong class="latin">A7F3-9C2E1</strong></div>
+                  </div>
+                </footer>
+              </div>
+
+              <div class="cert__face cert__face--en" dir="ltr" lang="en" aria-hidden="true">
+                <header class="cert__head">
+                  <span class="cert__brand"><img src="assets/img/logo.png" alt="" width="36" height="36">Persicore Academy</span>
+                  <svg class="cert__seal" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="47" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width=".8" stroke-dasharray="2 3"/><path d="M50 26l6.5 13.5 14.8 2-10.8 10.3 2.7 14.7L50 59.4 36.8 66.5l2.7-14.7L28.7 41.5l14.8-2L50 26Z" fill="currentColor"/></svg>
+                </header>
+                <p class="cert__kicker">Certificate of Completion</p>
+                <p class="cert__kicker-sub">PERSICORE ACADEMY</p>
+                <p class="cert__lead">This is to certify that</p>
+                <p class="cert__name">Student Full Name</p>
+                <p class="cert__body">has successfully fulfilled all requirements and completed the program</p>
+                <p class="cert__course">Python: From Zero to an AI Bot</p>
+                <footer class="cert__foot">
+                  <div class="cert__sign">
+                    <svg class="cert__scribble" viewBox="0 0 160 44" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 34c10-18 18-28 24-28 7 0-6 30 2 30 9 0 14-22 22-22 6 0-4 20 4 20 7 0 10-14 16-14 5 0 0 12 6 12 8 0 12-16 20-16 6 0-2 16 6 16 10 0 20-12 46-16"/><path d="M20 40c40-6 80-8 124-6" stroke-width="1.4"/></svg>
+                    <strong>Arian Mirnazari</strong>
+                    <span>Founder, Persicore Academy</span>
+                  </div>
+                  <div class="cert__sign">
+                    <strong class="cert__date">October 1, 2026</strong>
+                    <span>Date of completion</span>
+                  </div>
+                  <div class="cert__verify">
+                    <svg class="cert__qr" viewBox="-1 -1 23 23" fill="currentColor" aria-hidden="true"><rect x='0' y='0' width='7' height='7' rx='1.6'/><rect x='1' y='1' width='5' height='5' rx='1' fill='#fff'/><rect x='2' y='2' width='3' height='3' rx='.7'/><rect x='14' y='0' width='7' height='7' rx='1.6'/><rect x='15' y='1' width='5' height='5' rx='1' fill='#fff'/><rect x='16' y='2' width='3' height='3' rx='.7'/><rect x='0' y='14' width='7' height='7' rx='1.6'/><rect x='1' y='15' width='5' height='5' rx='1' fill='#fff'/><rect x='2' y='16' width='3' height='3' rx='.7'/><rect x='9' y='0' width='1' height='1'/><rect x='11' y='0' width='1' height='1'/><rect x='12' y='0' width='1' height='1'/><rect x='8' y='1' width='1' height='1'/><rect x='9' y='1' width='1' height='1'/><rect x='11' y='1' width='1' height='1'/><rect x='9' y='2' width='1' height='1'/><rect x='10' y='2' width='1' height='1'/><rect x='11' y='2' width='1' height='1'/><rect x='12' y='3' width='1' height='1'/><rect x='8' y='5' width='1' height='1'/><rect x='10' y='5' width='1' height='1'/><rect x='9' y='6' width='1' height='1'/><rect x='8' y='7' width='1' height='1'/><rect x='10' y='7' width='1' height='1'/><rect x='11' y='7' width='1' height='1'/><rect x='1' y='8' width='1' height='1'/><rect x='7' y='8' width='1' height='1'/><rect x='8' y='8' width='1' height='1'/><rect x='9' y='8' width='1' height='1'/><rect x='11' y='8' width='1' height='1'/><rect x='14' y='8' width='1' height='1'/><rect x='15' y='8' width='1' height='1'/><rect x='19' y='8' width='1' height='1'/><rect x='0' y='9' width='1' height='1'/><rect x='3' y='9' width='1' height='1'/><rect x='4' y='9' width='1' height='1'/><rect x='6' y='9' width='1' height='1'/><rect x='10' y='9' width='1' height='1'/><rect x='13' y='9' width='1' height='1'/><rect x='19' y='9' width='1' height='1'/><rect x='20' y='9' width='1' height='1'/><rect x='2' y='10' width='1' height='1'/><rect x='4' y='10' width='1' height='1'/><rect x='6' y='10' width='1' height='1'/><rect x='8' y='10' width='1' height='1'/><rect x='11' y='10' width='1' height='1'/><rect x='13' y='10' width='1' height='1'/><rect x='15' y='10' width='1' height='1'/><rect x='16' y='10' width='1' height='1'/><rect x='17' y='10' width='1' height='1'/><rect x='19' y='10' width='1' height='1'/><rect x='0' y='11' width='1' height='1'/><rect x='1' y='11' width='1' height='1'/><rect x='7' y='11' width='1' height='1'/><rect x='9' y='11' width='1' height='1'/><rect x='10' y='11' width='1' height='1'/><rect x='11' y='11' width='1' height='1'/><rect x='12' y='11' width='1' height='1'/><rect x='13' y='11' width='1' height='1'/><rect x='14' y='11' width='1' height='1'/><rect x='17' y='11' width='1' height='1'/><rect x='18' y='11' width='1' height='1'/><rect x='19' y='11' width='1' height='1'/><rect x='2' y='12' width='1' height='1'/><rect x='6' y='12' width='1' height='1'/><rect x='7' y='12' width='1' height='1'/><rect x='8' y='12' width='1' height='1'/><rect x='11' y='12' width='1' height='1'/><rect x='14' y='12' width='1' height='1'/><rect x='15' y='12' width='1' height='1'/><rect x='16' y='12' width='1' height='1'/><rect x='19' y='12' width='1' height='1'/><rect x='10' y='13' width='1' height='1'/><rect x='11' y='13' width='1' height='1'/><rect x='12' y='13' width='1' height='1'/><rect x='15' y='13' width='1' height='1'/><rect x='16' y='13' width='1' height='1'/><rect x='17' y='13' width='1' height='1'/><rect x='19' y='13' width='1' height='1'/><rect x='20' y='13' width='1' height='1'/><rect x='9' y='14' width='1' height='1'/><rect x='10' y='14' width='1' height='1'/><rect x='11' y='14' width='1' height='1'/><rect x='12' y='14' width='1' height='1'/><rect x='14' y='14' width='1' height='1'/><rect x='16' y='14' width='1' height='1'/><rect x='17' y='14' width='1' height='1'/><rect x='18' y='14' width='1' height='1'/><rect x='19' y='14' width='1' height='1'/><rect x='9' y='15' width='1' height='1'/><rect x='11' y='15' width='1' height='1'/><rect x='16' y='15' width='1' height='1'/><rect x='10' y='16' width='1' height='1'/><rect x='11' y='16' width='1' height='1'/><rect x='12' y='16' width='1' height='1'/><rect x='14' y='16' width='1' height='1'/><rect x='15' y='16' width='1' height='1'/><rect x='17' y='16' width='1' height='1'/><rect x='19' y='16' width='1' height='1'/><rect x='11' y='17' width='1' height='1'/><rect x='14' y='17' width='1' height='1'/><rect x='15' y='17' width='1' height='1'/><rect x='16' y='17' width='1' height='1'/><rect x='17' y='17' width='1' height='1'/><rect x='18' y='17' width='1' height='1'/><rect x='19' y='17' width='1' height='1'/><rect x='20' y='17' width='1' height='1'/><rect x='8' y='18' width='1' height='1'/><rect x='10' y='18' width='1' height='1'/><rect x='11' y='18' width='1' height='1'/><rect x='13' y='18' width='1' height='1'/><rect x='16' y='18' width='1' height='1'/><rect x='17' y='18' width='1' height='1'/><rect x='18' y='18' width='1' height='1'/><rect x='11' y='19' width='1' height='1'/><rect x='12' y='19' width='1' height='1'/><rect x='16' y='19' width='1' height='1'/><rect x='17' y='19' width='1' height='1'/><rect x='18' y='19' width='1' height='1'/><rect x='19' y='19' width='1' height='1'/><rect x='20' y='19' width='1' height='1'/><rect x='10' y='20' width='1' height='1'/><rect x='11' y='20' width='1' height='1'/><rect x='13' y='20' width='1' height='1'/><rect x='15' y='20' width='1' height='1'/><rect x='16' y='20' width='1' height='1'/><rect x='17' y='20' width='1' height='1'/><rect x='18' y='20' width='1' height='1'/><rect x='19' y='20' width='1' height='1'/><rect x='20' y='20' width='1' height='1'/></svg>
+                    <div><span>Certificate ID</span><strong>A7F3-9C2E1</strong></div>
+                  </div>
+                </footer>
+              </div>
+            </article>
+
+            <span class="cert-wrap__shadow" aria-hidden="true"></span>
+            <span class="cert-wrap__puff" style="--px:-46px; --py:-10px"></span><span class="cert-wrap__puff" style="--px:44px; --py:-12px"></span><span class="cert-wrap__puff" style="--px:-24px; --py:-30px"></span><span class="cert-wrap__puff" style="--px:26px; --py:-28px"></span>
+            <span class="cert-wrap__mascot mascot" id="certMascot" aria-hidden="true"><img src="assets/img/mascot-front.png" alt="" width="502" height="898" loading="lazy"><i class="mascot__lid mascot__lid--l"></i><i class="mascot__lid mascot__lid--r"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Faculty ============ -->
+    <section class="section" id="faculty">
+      <div class="container">
+        <header class="sec-head" data-reveal>
+          <div>
+            <span class="pill">هیئت مدرسان</span>
+            <h2 class="sec-head__title">مدرسان پرسیکور</h2>
+          </div>
+          <a href="instructors.html" class="link">آشنایی با مدرسان</a>
+        </header>
+
+        <div class="faculty">
+          <article class="teacher" data-reveal style="--d:0">
+            <img src="assets/img/instructor-arian.webp" alt="" width="80" height="80" loading="lazy">
+            <div>
+              <h3>آرین میرنظری</h3>
+              <span class="teacher__role">بنیان‌گذار و مدرس</span>
+              <p>برنامه‌نویس ارشد فول‌استک با ۸ سال تجربه در تیم‌های مهندسی و نویسنده‌ی ۲ کتاب آموزش برنامه‌نویسی.</p>
+            </div>
+          </article>
+
+          <article class="teacher" data-reveal style="--d:1">
+            <img src="assets/img/instructor-taha.webp" alt="" width="80" height="80" loading="lazy">
+            <div>
+              <h3>سید طه خوشدل</h3>
+              <span class="teacher__role">مدرس دوره‌ی <span class="latin">HACK.PY</span></span>
+              <p>مؤسس <span class="latin">P.T.K</span>، مخترع بین‌المللی <span class="latin">IFIA</span> و فعال حوزه‌ی فناوری و امنیت سایبری.</p>
+            </div>
+          </article>
+
+          <article class="teacher" data-reveal style="--d:2">
+            <img src="assets/img/instructor-masoomeh.png" alt="" width="80" height="80" loading="lazy">
+            <div>
+              <h3>معصومه برزو</h3>
+              <span class="teacher__role">مدرس دوره‌ی هوش مصنوعی</span>
+              <p>برنامه‌نویس ارشد و عضو تیم فنی پرسیکور آکادمی.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Resources ============ -->
+    <section class="section section--tint" id="resources">
+      <div class="container">
+        <header class="sec-head" data-reveal>
+          <div>
+            <span class="pill">منابع آزاد</span>
+            <h2 class="sec-head__title">پیش از ثبت‌نام هم می‌توانید یاد بگیرید</h2>
+          </div>
+        </header>
+
+        <div class="resources">
+          <a href="free.html" class="tile" data-reveal style="--d:0; --rot:0deg">
+            <span class="tile__kind">ویدیو</span>
+            <h3>آموزش‌های رایگان</h3>
+            <p>ویدیوهای آموزشی برای شروع و آشنایی با شیوه‌ی تدریس پرسیکور.</p>
+            <span class="go" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></span>
+          </a>
+          <a href="blog.html" class="tile" data-reveal style="--d:1; --rot:90deg">
+            <span class="tile__kind">مقاله</span>
+            <h3>بلاگ</h3>
+            <p>مقاله‌های آموزشی درباره‌ی برنامه‌نویسی، ابزارها و مسیر یادگیری.</p>
+            <span class="go" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></span>
+          </a>
+          <a href="podcast.html" class="tile" data-reveal style="--d:2; --rot:180deg">
+            <span class="tile__kind">گفتگو</span>
+            <h3>پادکست</h3>
+            <p>گفتگو با متخصصان فناوری و برنامه‌نویسی درباره‌ی کار و مسیر حرفه‌ای.</p>
+            <span class="go" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section" id="faq">
+      <div class="container">
+        <header class="sec-head sec-head--center" data-reveal>
+          <span class="pill">پرسش‌های متداول</span>
+          <h2 class="sec-head__title">آنچه پیش از ثبت‌نام می‌پرسند</h2>
+        </header>
+
+        <div class="faq">
+          <div class="accordion" data-reveal style="--d:0">
+            <details open>
+              <summary>آکادمی چه دوره‌هایی دارد؟<span class="accordion__icon" aria-hidden="true"></span></summary>
+              <div class="accordion__content">در حال حاضر چهار دوره فعال است: برنامه‌نویسی فول‌استک با متد وایب کدینگ، پایتون، <span class="latin">HACK.PY</span> و آموزش کاربردی هوش مصنوعی. دوره‌ی <span class="latin">C++</span> نیز به‌زودی اضافه می‌شود.</div>
+            </details>
+            <details>
+              <summary>پیش‌نیاز دوره‌ها چیست؟<span class="accordion__icon" aria-hidden="true"></span></summary>
+              <div class="accordion__content">پیش‌نیاز هر دوره در صفحه‌ی همان دوره نوشته شده است. دوره‌های عمومی تنها به آشنایی پایه با کامپیوتر نیاز دارند.</div>
+            </details>
+            <details>
+              <summary>جلسات زنده برگزار می‌شوند یا ضبط‌شده‌اند؟<span class="accordion__icon" aria-hidden="true"></span></summary>
+              <div class="accordion__content">کلاس‌ها زنده و آنلاین برگزار می‌شوند. هر جلسه ضبط می‌شود و در پنل دانشجو در دسترس می‌ماند.</div>
+            </details>
+            <details>
+              <summary>ثبت‌نام چگونه انجام می‌شود؟<span class="accordion__icon" aria-hidden="true"></span></summary>
+              <div class="accordion__content">از فهرست دوره‌ها وارد صفحه‌ی دوره‌ی مدنظر شوید و همان‌جا آنلاین ثبت‌نام کنید. شرایط بازگشت وجه در صفحه‌ی قوانین آمده است.</div>
+            </details>
+            <details>
+              <summary>گواهی پایان دوره چگونه صادر می‌شود؟<span class="accordion__icon" aria-hidden="true"></span></summary>
+              <div class="accordion__content">پس از تکمیل جلسات دوره و قبولی در آزمون نهایی (در دوره‌هایی که آزمون دارند) گواهی صادر می‌شود و با کد اختصاصی آن از صفحه‌ی استعلام قابل بررسی است.</div>
+            </details>
+            <details>
+              <summary>پس از پایان دوره پشتیبانی وجود دارد؟<span class="accordion__icon" aria-hidden="true"></span></summary>
+              <div class="accordion__content">بله. دانشجویان هر دوره کانال اختصاصی دارند و جلسات پرسش‌وپاسخ به‌صورت منظم برگزار می‌شود.</div>
+            </details>
+          </div>
+
+          <aside class="helper" data-reveal style="--d:1">
+            <div class="helper__bubble">
+              <strong>پاسخ پرسش خود را پیدا نکردید؟</strong>
+              <span>بپرسید؛ تیم آموزش پرسیکور پیش از ثبت‌نام راهنمایی‌تان می‌کند.</span>
+              <div class="helper__actions">
+                <a href="https://t.me/Arianmirnazari" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--sm" style="padding-inline-end:20px">پرسش در تلگرام</a>
+                <a href="tel:09057177001" class="btn btn--line btn--sm">تماس تلفنی</a>
+              </div>
+            </div>
+            <div class="helper__stage" aria-hidden="true">
+              <span class="helper__spot"></span>
+              <span class="helper__mascot mascot"><img src="assets/img/mascot-front.png" alt="" width="502" height="898" loading="lazy"><i class="mascot__lid mascot__lid--l"></i><i class="mascot__lid mascot__lid--r"></i></span>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Closing ============ -->
+    <section class="closing">
+      <div class="container">
+        <div class="closing__box" data-reveal>
+          <div class="closing__art">
+            <video data-inview muted loop playsinline preload="none" poster="assets/video/closing-poster.jpg" width="1500" height="844" aria-label="کاراکتر پرسیکور">
+              <source src="assets/video/closing.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="closing__text">
+            <span class="closing__eyebrow"><i aria-hidden="true"></i>تیم آموزش پرسیکور</span>
+            <h2>برای انتخاب دوره <span class="closing__mark">راهنمایی</span> می‌خواهید؟</h2>
+            <p>پیش از ثبت‌نام می‌توانید پرسش‌های خود را با تیم آموزش پرسیکور در میان بگذارید.</p>
+            <div class="closing__actions">
+              <a href="https://t.me/Arianmirnazari" target="_blank" rel="noopener noreferrer" class="btn btn--white">گفتگو در تلگرام</a>
+              <a href="tel:09057177001" class="btn btn--glass">تماس تلفنی</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__grid">
+      <div class="site-footer__about">
+        <a href="index.html" class="brand">
+          <img src="assets/img/logo.png" alt="" width="36" height="36">
+          <span>
+            <span class="brand__name">پرسیکور آکادمی</span>
+            <span class="brand__sub latin">Persicore Academy</span>
+          </span>
+        </a>
+        <p>آموزشگاه آنلاین برنامه‌نویسی با کلاس‌های زنده و دوره‌های پروژه‌محور.</p>
+        <a href="https://trustseal.enamad.ir/?id=762749&Code=G8JVFd7h7xOQt91EsgrEErEwbDtS0TSE" target="_blank" rel="noopener noreferrer" referrerpolicy="origin" class="enamad" aria-label="نماد اعتماد الکترونیکی">
+          <span class="enamad__label">نماد اعتماد</span>
+          <img referrerpolicy="origin" src="https://trustseal.enamad.ir/logo.aspx?id=762749&Code=G8JVFd7h7xOQt91EsgrEErEwbDtS0TSE" alt="" width="78" height="78" loading="lazy" onerror="this.remove()">
+        </a>
+      </div>
+
+      <div>
+        <h3>دوره‌ها</h3>
+        <ul>
+          <li><a href="vibe-coding.html">فول‌استک با وایب کدینگ</a></li>
+          <li><a href="python.html">پایتون</a></li>
+          <li><a href="cyber-python.html"><span class="latin">HACK.PY</span></a></li>
+          <li><a href="ai-tools.html">هوش مصنوعی</a></li>
+          <li><a href="cpp.html"><span class="latin">C++</span></a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>آکادمی</h3>
+        <ul>
+          <li><a href="about.html">درباره‌ی آکادمی</a></li>
+          <li><a href="instructors.html">مدرسان</a></li>
+          <li><a href="blog.html">بلاگ</a></li>
+          <li><a href="alumni.html">دانش‌آموختگان</a></li>
+          <li><a href="podcast.html">پادکست</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>ارتباط</h3>
+        <ul>
+          <li><a href="https://t.me/Arianmirnazari" target="_blank" rel="noopener noreferrer">تلگرام پشتیبانی</a></li>
+          <li><a href="tel:09057177001"><span class="latin">۰۹۰۵ ۷۱۷ ۷۰۰۱</span></a></li>
+          <li><a href="mailto:persicoreacademy@gmail.com"><span class="latin">persicoreacademy@gmail.com</span></a></li>
+          <li><a href="verify-certificate.html">استعلام گواهی</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container site-footer__bottom">
+      <span>© ۱۴۰۵ پرسیکور آکادمی</span>
+      <nav class="site-footer__legal" aria-label="قوانین و وضعیت">
+        <a href="terms.html">قوانین و بازگشت وجه</a>
+        <a href="privacy.html">حریم خصوصی</a>
+        <a href="status.html">وضعیت سرویس</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
